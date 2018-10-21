@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.12)
 
-add_executable(001 main.cpp)
+add_executable(001.out main.cpp)
 
