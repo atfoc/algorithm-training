@@ -15,6 +15,7 @@ int main()
 	ds::bst<int> after;
 	ds::bst<std::string> tree1;
 	ds::bst<std::string> after1;
+	ds::bst<int> a;
 	int arr[]{5, 4, 72, 63, 888};
 	int size = sizeof(arr)/sizeof(int);
 
@@ -38,7 +39,6 @@ int main()
 		return std::atoi(s.c_str());
 	});
 	std::cout << serilize(after) << std::endl;
-
 	auto string1 = serilize(tree1);
 	std::cout << string1 << std::endl;
 	after1 = deserilize<std::string>(string1, [](auto &&s)
