@@ -25,7 +25,7 @@ and so on util you fail.
 
 Sort array and then find first missing positive number
 
-# Solution: Even more smart
+# Solution3: Even more smart
 
 ### Complexity
 + Time O(n)
