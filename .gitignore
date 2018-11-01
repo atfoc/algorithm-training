@@ -5,3 +5,4 @@ Makefile
 *.out
 .vscode
 .idea
+venv
